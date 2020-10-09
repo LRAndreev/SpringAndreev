@@ -60,7 +60,7 @@ public class Controller {
         compass.add("South-East",  dirSE[0], dirSE[1]);
 
         String dirS[] = postCompass.get("South").split("-");
-        compass.add("South", dirSE[0], dirSE[1]);
+        compass.add("South", dirS[0], dirS[1]);
 
         String dirSW[] = postCompass.get("South-West").split("-");
         compass.add("South-West", dirSW[0], dirSW[1]);
